@@ -1,0 +1,4 @@
+npx create-react-app@4.0.3 frontend
+python3.8 -m venv venv
+source venv/bin/activate
+pip install django djangorestframework django-cors-headers

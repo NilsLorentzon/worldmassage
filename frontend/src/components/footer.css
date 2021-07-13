@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.contact-box {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.profile__name {
+    font-size: 20px;
+    width: 130px;
+}
+
+.location, .location:visited {
+}
+
+.email, .email:visited {
+    white-space: nowrap;
+}
+
+.number, .number:visited {
+    white-space: nowrap;
+}
+
+
+
+.contact-icon {
+    width: 50px;
+}
+
+.contact {
+    color: rgb(255, 175, 138);
+    width: 100px;
+    text-decoration: none;
+    margin: 0px 40px;
+
+}
+
+.contact-icon:hover {
+    width: 60px;
+}
